@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+
+    font-family: "Open Sans";
+}
+
+body {
+    margin: 0;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    background-image: url("main_bg.jpg");
+
+}
+
+#container-canvas {
+    position: relative;
+    display: grid;
+    justify-content: center;
+}
+
+canvas {
+    position: absolute;
+    left: 0; 
+    top: 0;
+    border: 1px solid black;
+}
+
+
+#container-all-maps {
+    align-self: center;
+    display: block;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-self: center;
+    z-index: 99999;
+    
+    /* position: absolute; */
+}
+
+.container-map{
+    margin-bottom: 20px;
+    padding: 10px;
+    display: grid;
+    border: 1px solid black;
+}
+
+.container-map img {
+    width: 250px;
+    height: 150px;
+}
+
+
+
+#main-name {
+    position: relative;
+    top: 10%;
+    font-size: 5vw;
+}
+
+#sign {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#reset {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 70px;
+}
+
+#time {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    width: 100px;
+    height: 70px;
+}
