@@ -8,7 +8,7 @@ class Heart {
         this.height = height;
 
         this.img = new Image;
-        this.img.src = "heart_neki.png";
+        this.img.src = "images/heart_neki.png";
 
         this.heartWidth = 275;
         this.heartHeight = 233;

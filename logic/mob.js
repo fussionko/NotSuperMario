@@ -5,10 +5,10 @@ class Mob extends movingObject{
 
 
         this.img = new Image;
-        this.img.src = "mob_neki.png";
+        this.img.src = "images/mob_neki.png";
 
         this.img_explosion = new Image;
-        this.img_explosion = "mob_neki_image_explosion.png";
+        this.img_explosion = "images/mob_neki_image_explosion.png";
 
         this.explosionState = 0;
 
@@ -22,9 +22,9 @@ class Mob extends movingObject{
         this.img_h = 140;
 
 
-        this.sound_laugh = new Sound("mob_sound_1.wav");
-        this.sound_scream = new Sound("mob_sound_2.wav");
-        this.sound_death = new Sound("mob_sound_3.wav");
+        this.sound_laugh = new Sound("sounds/mob_sound_1.wav");
+        this.sound_scream = new Sound("sounds/mob_sound_2.wav");
+        this.sound_death = new Sound("sounds/mob_sound_3.wav");
 
         this.stop = 0;
         this.death = 0;

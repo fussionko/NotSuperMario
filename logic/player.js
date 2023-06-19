@@ -10,7 +10,7 @@ class Player extends movingObject {
         this.kickForceX = 0;
 
         this.img = new Image;
-        this.img.src = "player_neki.png";
+        this.img.src = "images/player_neki.png";
 
         this.health = new Health(3);
         this.score = new Score(30, this.health.y + this.health.height+15, 100, 20);
@@ -27,7 +27,7 @@ class Player extends movingObject {
 
         this.first = 0;
 
-        this.sound_death = new Sound("player_sound_1.mp3");
+        this.sound_death = new Sound("sounds/player_sound_1.mp3");
 
         this.finish = 0;
 

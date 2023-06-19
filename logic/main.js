@@ -40,10 +40,10 @@ document.addEventListener("DOMContentLoaded", function(){
 
     current_map = 1;
 
-    theme_song = new Sound("theme_song.mp3");
+    theme_song = new Sound("sounds/theme_song.mp3");
     theme_song.setLoop();
 
-    win = new Sound("level_sound_win.mp3");
+    win = new Sound("sounds/level_sound_win.mp3");
 
     start();
 });

@@ -4,7 +4,7 @@ class Coin extends movingObject{
         super(x, y, width, height, 0, -4);
 
         this.img = new Image;
-        this.img.src = 'coin_neki.png';
+        this.img.src = 'images/coin_neki.png';
 
         this.value = value;
         this.img_w = 191;
@@ -12,7 +12,7 @@ class Coin extends movingObject{
 
         this.prevCoin = 0;
 
-        this.sound_collected = new Sound("coin_sound.wav");
+        this.sound_collected = new Sound("sounds/coin_sound.wav");
 
         this.collected = 0;
 

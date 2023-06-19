@@ -7,13 +7,13 @@ class GameObject{
         this.height = height;
 
         this.img = new Image;
-        this.img.src = "object_image_neki.png"
+        this.img.src = "images/object_image_neki.png"
         this.img_w = 637;
         this.img_h = 637;
 
         this.state = 0;
         this.max_state = max_state;
-        this.sound_break = new Sound("object_sound_break.mp3");
+        this.sound_break = new Sound("sounds/object_sound_break.mp3");
     }
     
     clear()

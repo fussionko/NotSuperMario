@@ -11,21 +11,21 @@ class Level {
         this.bg = new Background(0, 0, canvasW, canvasH, bg_src);
 
         this.img_flag = new Image;
-        this.img_flag.src = "flag_image.png";
+        this.img_flag.src = "images/flag_image.png";
         this.flag_x = pBackX-block_w;
         this.flag_y = pBackY-block_h*2;
         this.flag_w = block_w;
         this.flag_h = block_h*2;
 
         this.img_door_next = new Image;
-        this.img_door_next.src = "door_image.png";
+        this.img_door_next.src = "images/door_image.png";
         this.door_next_x = pBackX-block_w;
         this.door_next_y = pBackY-block_h*2;
         this.door_next_w = block_w;
         this.door_next_h = block_h*2;
         
         this.img_door_prev = new Image;
-        this.img_door_prev.src = "door_image.png";
+        this.img_door_prev.src = "images/door_image.png";
         this.door_prev_x = pStartX;
         this.door_prev_y = pStartY-block_h*2;
         this.door_prev_w = block_w;

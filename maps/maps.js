@@ -2,8 +2,8 @@ function loadMaps()
 {
     let map1 = new Map();
     map1.setName("Lepa Lepa mapa");
-    map1.setDisplayImage("background_image_2.jpg");
-    let level1_1 = new Level(0, canvasH, canvasW, canvasH,"background_image_2.jpg");
+    map1.setDisplayImage("images/background_image_2.jpg");
+    let level1_1 = new Level(0, canvasH, canvasW, canvasH,"images/background_image_2.jpg");
         level1_1.addGameObject(100, 600, block_w, block_h, 1);
         level1_1.addGameObject(100+block_w, 600, block_w, block_h, 1);
         level1_1.addGameObject(100+block_w*2, 600, block_w, block_h, 2);
@@ -25,7 +25,7 @@ function loadMaps()
         level1_1.addMob(100+block_w*3, 500, 100, 100, 0.2, -4);
 
 
-    let level1_2 = new Level(0, canvasH, canvasW, canvasH,"background_image_2.jpg");
+    let level1_2 = new Level(0, canvasH, canvasW, canvasH,"images/background_image_2.jpg");
         level1_2.addGameObject(50, 600, block_w, block_h, 2);
         level1_2.addGameObject(50+block_w, 600, block_w, block_h, 1);
         level1_2.addGameObject(50+block_w*2, 600, block_w, block_h, 1);
@@ -48,7 +48,7 @@ function loadMaps()
         level1_2.addMob(300, 700, 80, 80, 0.1, -4);
         level1_2.addMob(700, 700, 80, 80, 0.3, -4);
 
-    let level1_3 = new Level(0, canvasH, canvasW, canvasH,"background_image_2.jpg");
+    let level1_3 = new Level(0, canvasH, canvasW, canvasH,"images/background_image_2.jpg");
         level1_3.addGameObject(450, 600, block_w, block_h, 2);
         level1_3.addGameObject(450+block_w, 600, block_w, block_h, 1);
         level1_3.addGameObject(450+block_w*2, 600, block_w, block_h, 1);
@@ -81,8 +81,8 @@ function loadMaps()
 
     let map2 = new Map();
     map2.setName("Nočni vihar");
-    map2.setDisplayImage("bg_3.png");
-        let level2_1 = new Level(0, 0, canvasW, 150,"bg_3.png");
+    map2.setDisplayImage("images/bg_3.png");
+        let level2_1 = new Level(0, 0, canvasW, 150,"images/bg_3.png");
             level2_1.addGameObject(100, 600, block_w, block_h, 1);
             level2_1.addGameObject(100+block_w, 600, block_w, block_h, 1);
             level2_1.addGameObject(100+block_w*2, 600, block_w, block_h, 1);
@@ -101,7 +101,7 @@ function loadMaps()
             level2_1.addMob(500, 700, 50, 50, 0.4, -4);
             level2_1.addMob(800, 700, 250,250, 0.1, -4);
 
-        let level2_2 = new Level(0, 250, canvasW, 150,"bg_3.png");
+        let level2_2 = new Level(0, 250, canvasW, 150,"images/bg_3.png");
             level2_2.addGameObject(0, 250, block_w, block_h, 1);
             level2_2.addGameObject(block_w, 250, block_w, block_h, 1);
             level2_2.addGameObject(block_w*2, 250, block_w, block_h, 1);
@@ -157,7 +157,7 @@ function loadMaps()
             level2_2.addMob(300, 700, 40, 40, 0.2, -4);
             level2_2.addMob(600, 700, 40, 40, 0.5, -4);
 
-        let level2_3 = new Level(0, canvasH, canvasW, 500,"bg_3.png");
+        let level2_3 = new Level(0, canvasH, canvasW, 500,"images/bg_3.png");
             level2_3.addGameObject(block_w*4, canvasH-block_w, block_w, block_h, 1);
             level2_3.addGameObject(block_w*4, canvasH-block_w*2, block_w, block_h, 1);
             level2_3.addGameObject(block_w*4, canvasH-block_w*3, block_w, block_h, 1);
